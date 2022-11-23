@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
-      <y>60</y>
+      <x>140</x>
+      <y>0</y>
       <w>210</w>
       <h>70</h>
     </coordinates>
@@ -17,10 +17,10 @@ enum TipoItem PC,Silla</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>310</y>
-      <w>210</w>
-      <h>130</h>
+      <x>330</x>
+      <y>250</y>
+      <w>300</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes>Silla Class
 --
@@ -28,20 +28,19 @@ boolean conRueditas
 int lote
 int numeroDentroDeLote 
 --
-get lote()
-get numeroDEntroDeLote()
-get id()</panel_attributes>
+get id()[lote * 1000 + numeroDentroDeLote]
+conRueditas()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
-      <y>190</y>
+      <x>140</x>
+      <y>130</y>
       <w>210</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>TipoDeItem Class
+    <panel_attributes>TipoDeItem AbstractClass
 --
 final TipoItem tipo
 --
@@ -51,8 +50,8 @@ getid()</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>310</y>
+      <x>0</x>
+      <y>250</y>
       <w>210</w>
       <h>100</h>
     </coordinates>
@@ -61,15 +60,15 @@ getid()</panel_attributes>
 int nroSerie
 boolean esNoteBook 
 --
-get nroSerie()
-get id()</panel_attributes>
+
+get id()[nroSerie]</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>250</y>
+      <x>90</x>
+      <y>190</y>
       <w>140</w>
       <h>80</h>
     </coordinates>
@@ -79,8 +78,8 @@ get id()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>250</y>
+      <x>230</x>
+      <y>190</y>
       <w>220</w>
       <h>80</h>
     </coordinates>
@@ -90,12 +89,37 @@ get id()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>120</y>
+      <x>220</x>
+      <y>60</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLInterface</id>
+    <coordinates>
+      <x>710</x>
+      <y>380</y>
+      <w>440</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Rodable (es un atributo)
+--
+conRueditas() (es una operacion que en este caso es un boolean)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>370</y>
+      <w>320</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>300.0;30.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

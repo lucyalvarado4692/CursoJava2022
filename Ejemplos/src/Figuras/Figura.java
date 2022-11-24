@@ -35,6 +35,12 @@ public abstract class Figura {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	public static int getCantidadDefiguras() {
+		return cantidadDeFiguras;
+	}
+	public static void clear() {
+		cantidadDeFiguras = 0;
+	}
 	
 	//metodos de negocio
 	public abstract float calcularPerimetro();
@@ -58,7 +64,7 @@ public abstract class Figura {
 
 	@Override
 	public String toString() {
-		StringBuilder sb = new StringBuilder("nombre=");
+		StringBuilder sb = new StringBuilder("\nnombre=");
 		sb.append(nombre);
 		return sb.toString();
 	}

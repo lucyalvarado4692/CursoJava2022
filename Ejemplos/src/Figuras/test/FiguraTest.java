@@ -14,6 +14,7 @@ import org.junit.jupiter.api.Test;
 import Figuras.Circulo;
 import Figuras.Cuadrado;
 import Figuras.Figura;
+import Figuras.exceptions.ExceptionFigure;
 
 class FiguraTest {
 	//lote de pruebas
@@ -62,6 +63,7 @@ class FiguraTest {
 		cirLleno = null;
 		figurasList = null;
 		figurasSet= null;
+		Figura.clear();
 	}
 
 	@Test
@@ -85,13 +87,18 @@ class FiguraTest {
 	}
 	
 	@Test
-	void tetsCuadradiEqualsHashCodeList_True() {
+	void tetsCuadradiEqualsHashCodeList_True() throws ExceptionFigure {
 		assertTrue(figurasList.contains(new Cuadrado("cuadrado",10)));
 	}
 	
 	@Test
 	void tetsCuadradiEqualsHashCodeList_False() {
-		assertFalse(figurasList.contains(new Cuadrado("cuadradido",10)));
+		try {
+			assertFalse(figurasList.contains(new Cuadrado("cuadradido",10)));
+		} catch (ExceptionFigure e) {
+			assertTrue(false);
+			e.printStackTrace();
+		}
 	}
 	
 	@Test
@@ -102,23 +109,48 @@ class FiguraTest {
 	
 	
 	@Test
-	void tetsCuadradiEquals_cantidad() {
+	void tetsCuadradiEquals_cantidad() throws ExceptionFigure {
 		figurasSet.add(new Cuadrado("cuadrado",10));
 		assertEquals(6, figurasSet.size());
 	}
 	
 	@Test
-	void tetsCuadradiEquals_true() {
+	void tetsCuadradiEquals_true() throws ExceptionFigure {
 		Cuadrado miCuadrado = new Cuadrado("cuadrado",10);
 		assertTrue(cuaLleno.equals(miCuadrado));
 	}
 	
 	@Test
-	void tetsCuadradiEquals_false() {
+	void tetsCuadradiEquals_false() throws ExceptionFigure {
 		Cuadrado miCuadrado = new Cuadrado("cuadradito",15);
 		assertFalse(cuaLleno.equals(miCuadrado));
 	}
-
+	
+	@Test
+	void tetsCuadradoFiguraException() {
+		Cuadrado cua = new Cuadrado();
+		System.out.println("la lista de figuras");
+		System.out.println(figurasList);
+		System.out.println("cuadrado lleno" + cuaLleno);
+		try {
+			cua.setLado(-10);
+		}catch(ExceptionFigure e){
+			assertEquals("El valor del lado no puede ser negativo", e.getMessage());
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	void testCantidadDeObjetos() {
+		assertEquals(8, Figura.getCantidadDefiguras());
+	}
+	
+	@Test
+	void testCantidadDeObjetos10() {
+		Cuadrado cua = new Cuadrado();
+		Cuadrado cuo = new Cuadrado();
+		assertEquals(10, Figura.getCantidadDefiguras());
+	}
 
 
 }

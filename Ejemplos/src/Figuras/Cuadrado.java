@@ -3,6 +3,8 @@
  */
 package Figuras;
 
+import Figuras.exceptions.ExceptionFigure;
+
 /**
  * @author lucyalva
  *
@@ -17,7 +19,9 @@ public class Cuadrado extends Figura {
 	}
 
 
-	public void setLado(float lado) {
+	public void setLado(float lado) throws ExceptionFigure {
+		if(lado <0)
+			throw new ExceptionFigure("El valor del lado no puede ser negativo");
 		this.lado = lado;
 	}
 
@@ -26,9 +30,9 @@ public class Cuadrado extends Figura {
 	}
 	
 
-	public Cuadrado(String pNombre, float plado) {
+	public Cuadrado(String pNombre, float pLado) throws ExceptionFigure {
 		super(pNombre);
-		this.lado = plado;
+		setLado(pLado);
 	}
 
 

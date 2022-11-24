@@ -5,5 +5,5 @@
  * @author lucyalva
  *
  */
-module Ejemplos {
+module ej5 {
 }

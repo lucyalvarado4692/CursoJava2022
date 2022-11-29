@@ -77,6 +77,18 @@ public class Employee {
 				nombre.equals(other.getNombre())	    && 
 				salario == other.getSalario();
 	}
+
+
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder(super.toString());
+		sb.append(" Nombre: ");
+		//revisarStringbuilder
+		return "Employee [fechaIngreso=" + fechaIngreso + ", salario=" + salario + ", nombre=" + nombre + ", edad="
+				+ edad + "]";
+	}
+	
+	
 	
 	
 

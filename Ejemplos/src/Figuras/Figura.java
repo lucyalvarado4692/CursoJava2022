@@ -6,13 +6,17 @@ package Figuras;
  */
 
 public abstract class Figura {
-	private String nombre;
+	private static String nombre;
 	private static int cantidadDeFiguras;
 
 	//constructores
 	public Figura() {
 		super();
 		cantidadDeFiguras++;
+	}
+	
+	public static void main(String args[]){
+		System.out.println(nombre);
 	}
 
 	public Figura(String nombre) {

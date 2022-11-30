@@ -4,16 +4,15 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>220</x>
+      <x>200</x>
       <y>0</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>Class Ordenes
+    <panel_attributes>Ordenes
 -
-id
-Data Fecha
-Boolean Status
+Fecha data
+Status boolean
 --
 peso total()
 
@@ -23,33 +22,31 @@ peso total()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>200</x>
+      <x>180</x>
       <y>280</y>
       <w>120</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Class Producto
+    <panel_attributes>Producto
 --
-id
-Float Peso
-String Description</panel_attributes>
+Peso Float
+Description String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
+      <x>190</x>
       <y>140</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>Class Detalles
+    <panel_attributes>Detalles
 --
-ID
-Int Cantidad
-String producto
+Cantidad int
+Producto String
 --
-peso total()
+pesoTotal()
 
 </panel_attributes>
     <additional_attributes/>
@@ -57,35 +54,17 @@ peso total()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>40</x>
+      <x>20</x>
       <y>10</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>Class Detalles
+    <panel_attributes>Detalles
 --
-id
-Int Cantidad
-String producto
+Cantidad int
+producto string
 --
 peso total()
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>430</x>
-      <y>140</y>
-      <w>110</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Class Tipo
--
-id
-String tipo
-
 
 </panel_attributes>
     <additional_attributes/>
@@ -94,14 +73,29 @@ String tipo
     <id>UMLClass</id>
     <coordinates>
       <x>410</x>
+      <y>140</y>
+      <w>110</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Tipo
+-
+tipo String
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
       <y>20</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>Class Pago
+    <panel_attributes>Pago
 -
-id
-Float import
+import float
 
 --
 importe total()
@@ -112,16 +106,15 @@ importe total()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
+      <x>330</x>
       <y>250</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>Class Cheque
 -
-id
-String emisor
-int id banco
+emisor String
+idBanco int
 -
 Is autorized()
 
@@ -133,16 +126,15 @@ Is autorized()
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>450</x>
       <y>270</y>
       <w>110</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>Class Efectivo
 -
-id
-String monedo
-float tasa
+moneda String
+tasa float
 
 
 </panel_attributes>
@@ -151,16 +143,15 @@ float tasa
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
+      <x>580</x>
       <y>260</y>
       <w>110</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>Class Tarjeta
 -
-id
-String tipo
-DateFechaExp
+tipo String
+FechaExp date
 -
 is autorized()
 
@@ -171,35 +162,7 @@ is autorized()
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>1010</x>
-      <y>30</y>
-      <w>80</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>Interface
---
-Operation1
-Operation2</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLInterface</id>
-    <coordinates>
-      <x>1020</x>
-      <y>20</y>
-      <w>80</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>Interface
---
-Operation1
-Operation2</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLInterface</id>
-    <coordinates>
-      <x>470</x>
+      <x>450</x>
       <y>370</y>
       <w>100</w>
       <h>90</h>
@@ -212,7 +175,7 @@ Is autorized()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>240</x>
+      <x>220</x>
       <y>90</y>
       <w>40</w>
       <h>70</h>
@@ -224,7 +187,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
+      <x>230</x>
       <y>230</y>
       <w>30</w>
       <h>70</h>
@@ -235,7 +198,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
+      <x>370</x>
       <y>210</y>
       <w>100</w>
       <h>60</h>
@@ -246,7 +209,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
+      <x>450</x>
       <y>210</y>
       <w>60</w>
       <h>80</h>
@@ -257,7 +220,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
+      <x>470</x>
       <y>210</y>
       <w>180</w>
       <h>70</h>
@@ -268,7 +231,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
+      <x>440</x>
       <y>110</y>
       <w>40</w>
       <h>50</h>
@@ -279,7 +242,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
+      <x>300</x>
       <y>40</y>
       <w>110</w>
       <h>50</h>
@@ -290,7 +253,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>140</x>
+      <x>120</x>
       <y>50</y>
       <w>90</w>
       <h>30</h>
@@ -301,7 +264,7 @@ bg=BLACK</panel_attributes>
   <element>
     <id>UMLInterface</id>
     <coordinates>
-      <x>20</x>
+      <x>0</x>
       <y>190</y>
       <w>120</w>
       <h>90</h>
@@ -314,7 +277,7 @@ Pesable Total()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
+      <x>60</x>
       <y>70</y>
       <w>150</w>
       <h>150</h>
@@ -325,7 +288,7 @@ Pesable Total()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>80</x>
+      <x>60</x>
       <y>200</y>
       <w>150</w>
       <h>40</h>
@@ -336,7 +299,7 @@ Pesable Total()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
+      <x>370</x>
       <y>340</y>
       <w>140</w>
       <h>70</h>
@@ -347,7 +310,7 @@ Pesable Total()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
+      <x>500</x>
       <y>350</y>
       <w>150</w>
       <h>60</h>

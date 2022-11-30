@@ -24,12 +24,16 @@ public class MiPila {
 	}
 	
 	
-	  public static void reverse() { ArrayList<String> Temporal = new
-	  ArrayList<String>(); int longitudDelArreglo = Pila.size(); String element;
-	  System.out.println(Pila); for(int index = 0; index < longitudDelArreglo;
-	  index++ ) { int indiceContrario = longitudDelArreglo - index - 1; element =
-	  Pila.get(indiceContrario); Temporal.add(element); }
-	  System.out.println(Temporal);
+	  public static void reverse() { 
+		  ArrayList<String> Temporal = new ArrayList<String>(); 
+		  int longitudDelArreglo = Pila.size();
+		  String element;
+		  System.out.println(Pila); 
+		  for(int index = 0; index < longitudDelArreglo; index++ ) { 
+			  int indiceContrario = longitudDelArreglo - index - 1; 
+			  element =Pila.get(indiceContrario); 
+			  Temporal.add(element); }
+		  System.out.println(Temporal);
 	  
 	  }
 	 

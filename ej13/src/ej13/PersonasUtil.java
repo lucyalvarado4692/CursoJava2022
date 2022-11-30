@@ -16,10 +16,6 @@ public abstract class PersonasUtil {
 		}
 		return mapPersonas;
 	}
-	public ordenarPersonas(List<Persona> pListPersonas){
-		return 
-		
-	}
 
 
 }

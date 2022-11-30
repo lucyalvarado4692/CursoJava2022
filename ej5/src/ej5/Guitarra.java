@@ -1,26 +1,26 @@
 package ej5;
 
-public class Guitarra extends Orquesta {
+public class Guitarra extends InstrumentosMusicales {
 	
-	public String sonido;
-	
-	
+	private String sonido;
 
 	public Guitarra() {
-
+		
 	}
 
-	public Guitarra(String pInstrumento, String pSonido) {
-		super(pInstrumento);
+	public Guitarra(String pNombre, String pSonido) {
+		super(pNombre);
 		setSonido(pSonido);
 	}
+	public Guitarra(String pSonido) {
+		super();
+	}
 
-
-
-	public String sonar() {
-		sonido = "Guitarra.sonar()";
+	@Override
+	public String getSonidoDelInstrumento() {
+		String sonidoDelInstrumento = "Guitarra.sonar()";
+		sonido = sonidoDelInstrumento;
 		return sonido;
-		
 	}
 
 	public String getSonido() {

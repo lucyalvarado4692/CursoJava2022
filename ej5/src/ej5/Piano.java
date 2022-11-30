@@ -1,26 +1,20 @@
 package ej5;
 
-public class Piano extends Orquesta {
-private String sonido;
+public class Piano extends InstrumentosMusicales {
 	
-	
+	private String sonido;
 
 	public Piano() {
-
+		
 	}
 
-	public Piano(String pInstrumento, String pSonido) {
-		super(pInstrumento);
+	public Piano(String pNombre , String pSonido) {
+		super(pNombre);
 		setSonido(pSonido);
 	}
-
-
-
-	@Override
-	public String sonar() {
-		sonido = "Piano.sonar()";
-		return sonido;
-		
+	
+	public Piano(String pSonido) {
+		super();
 	}
 
 	public String getSonido() {
@@ -31,5 +25,11 @@ private String sonido;
 		this.sonido = sonido;
 	}
 
+	@Override
+	public String getSonidoDelInstrumento() {
+		String sonidoDelInstrumento = "Piano.sonar()";
+		sonido = sonidoDelInstrumento;
+		return sonido;
+	}
 
 }

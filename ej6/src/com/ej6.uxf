@@ -9,9 +9,10 @@
       <w>210</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>public class ItemInventario
+    <panel_attributes>ItemInventario Class
 --
-enum TipoItem PC,Silla</panel_attributes>
+PC TipoItem enum
+Silla TipoItem enum</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -24,11 +25,11 @@ enum TipoItem PC,Silla</panel_attributes>
     </coordinates>
     <panel_attributes>Silla Class
 --
-boolean conRueditas 
-int lote
-int numeroDentroDeLote 
++ conRueditas boolean
++ lote int
++ numeroDentroDeLote int
 --
-get id()[lote * 1000 + numeroDentroDeLote]
+get id()
 conRueditas()</panel_attributes>
     <additional_attributes/>
   </element>
@@ -42,7 +43,7 @@ conRueditas()</panel_attributes>
     </coordinates>
     <panel_attributes>TipoDeItem AbstractClass
 --
-final TipoItem tipo
+tipo TipoItem final
 --
 getid()</panel_attributes>
     <additional_attributes/>
@@ -57,11 +58,13 @@ getid()</panel_attributes>
     </coordinates>
     <panel_attributes>Pc Class
 --
-int nroSerie
-boolean esNoteBook 
++ nroSerie int
++ esNoteBook boolean
++ barCodeRedeable boolean
++ barCode int
 --
-
-get id()[nroSerie]</panel_attributes>
+get id()
+get barCode()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

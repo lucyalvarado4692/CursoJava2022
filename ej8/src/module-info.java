@@ -5,5 +5,5 @@
  * @author lucyalva
  *
  */
-module ej7 {
+module ej8 {
 }

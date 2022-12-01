@@ -1,16 +1,15 @@
 package pilaGenericTest;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.capgemini.training.java.ej2.MiPila;
 
 import PilaGeneric.PilaGeneric;
 
@@ -41,20 +40,15 @@ class PilaGenericTest<T> {
 		PilaReverse.push("Paz");
 		PilaReverse.push("Patricia");
 		PilaReverse.push("Lucy");
-		assertEquals(PilaReverse, pilaPrueba.reverse(pilaPrueba));
+		pilaPrueba.reverse();
+		assertEquals(PilaReverse, pilaPrueba.getList());
 		
 	}
 	
 	@Test
 	void testPush() {
-		ArrayList<String> PilaPush = new ArrayList<String>();
-		String pString = "Elena";
-		PilaPush.add("Lucy");
-		PilaPush.add("Patricia");
-		PilaPush.add("Paz");
-		PilaPush.add("Viviana");
-		PilaPush.add(pString);
-		assertEquals(PilaPush, pilaPrueba.push(pString));
+		pilaPrueba.push("uva");
+		assertEquals(5, pilaPrueba.getList().size());
 		
 	}
 	
@@ -66,7 +60,7 @@ class PilaGenericTest<T> {
 		PilaPeek.add("Patricia");
 		PilaPeek.add("Paz");
 		PilaPeek.add(lastElement);
-		assertEquals(lastElement, MiPila.peekTest(pilaPrueba));
+		assertEquals(lastElement, pilaPrueba.peek());
 		
 	}
 	
@@ -76,8 +70,9 @@ class PilaGenericTest<T> {
 		PilaPoop.add("Lucy");
 		PilaPoop.add("Patricia");
 		PilaPoop.add("Paz");
-		assertEquals(PilaPoop, MiPila.popTest(pilaPrueba));
+		assertEquals(PilaPoop, pilaPrueba.pop());
 		
 	}
+
 
 }

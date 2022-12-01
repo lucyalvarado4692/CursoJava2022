@@ -5,39 +5,41 @@ import java.util.List;
 
 public class PilaGeneric<T> {
 
-	List<T> pila;
+	List<T> pila =new ArrayList<T>();
 	
-	public List<T> reverse(List<T> pArrayListTest) {
+	public void reverse() {
 		List<T> Temporal = new ArrayList<T>();
-		int longitudDelArreglo = pArrayListTest.size();
+		int longitudDelArreglo = pila.size();
 		T element;
-		System.out.println(pArrayListTest);
 		for(int index = 0; index < longitudDelArreglo; index++ ) {
 			int indiceContrario = longitudDelArreglo - index - 1;
-			element = pArrayListTest.get(indiceContrario);
+			element = pila.get(indiceContrario);
 			Temporal.add(element);
 		}
-		return Temporal;
+		pila = Temporal;
 	}
 
-	
-	
 	public void push(T e){ 
 		pila.add(e); 
 		}
 	
-	public List<T> pop(List<T> pArrayListTest) { 
-		  int index = pArrayListTest.size()-1; 
-		  pArrayListTest.remove(index);
-		  return pArrayListTest;
+	public List<T> pop() { 
+		  int index = pila.size()-1; 
+		  pila.remove(index);
+		  return pila;
 	  
 	  }
 	
-	public T peekTest(List<T> pArrayListTest) { 
-		  int index = pArrayListTest.size()-1; 
-		  T lastElement = pArrayListTest.get(index); 
+	public T peek() { 
+		  int index = pila.size()-1; 
+		  T lastElement = pila.get(index); 
 		  return lastElement;
 	  }
+	
+	public List<T> getList() {
+		return pila;
+	}
+
 	
 	/*
 	 * private List<T> list=new ArrayList<T>();
@@ -58,4 +60,6 @@ public class PilaGeneric<T> {
 	 * getList() { return list; }
 	 */
 
+	
+	
 }

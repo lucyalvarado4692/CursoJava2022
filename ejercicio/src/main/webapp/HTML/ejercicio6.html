@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> <!--juego de caracteres, evitamos tener que colocar caracteres especiales-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="../CSS/formulario.css" rel="stylesheet" type="text/css" media="screen" />
+<title>Ejercicios Formularios</title>
+</head>
+<body>
+<h2>Formulario 1</h2>
+<form action="#" method="POST" autocomplete="off">
+<h3>Rellena tu CV</h3>
+<label for="nombre">Nombre: </label><br>
+<input type="text" name="nombre" placeholder="escribe tu nombre" id="nombre" pattern="^[A-Za-z]+$" title="El campo solo acepta letras" size="30" required>
+<br>
+<label for="apellido">Apellido: </label><br>
+<input type="text" name="apellido" placeholder="escribe tu apellido" id="apellido" pattern="^[A-Za-z]+$" title="El campo solo acepta letras" size="80" required>
+<br>
+<label for="password">Contraseña: </label><br>
+<input type="password" name="password" placeholder="escribe tu contraseña" id="password" size=“10” required>
+<br>
+<label for="dni">DNI: </label><br>
+<input type="text" name="dni" placeholder="escribe tu DNI" id="dni" size="10" maxlength="9" pattern="[0-9]{8}[A-Za-z]{1}" required>
+<br>
+<label>Sexo: </label>
+<br>
+<input type="radio" name="Masculino" id="Masculino" value="Masculino">
+<label for="Masculino">Masculino</label>
+<br>
+<input type="radio" name="Femenino" id="Femenino" value="Femenino" >
+<label for="Femenino">Femenino</label>
+<br>
+<label for="nombre">Incluir mi foto: </label><br>
+<input type="text" name="foto" required>
+<input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+<br>
+<label for="">
+<input type="checkbox" name="intereses" value="salud" checked> Suscribir al boletin de novedades
+</label>
+<br>
+<button type="submit" value="Guardar Cambios">Guardar Cambios</button>
+<button type="reset" value="Borrar los datos introducidos">Borrar los datos introducido</button>
+</form>
+<h2>Formulario 2</h2>
+<form action="#" method="GET" autocomplete="off">
+<fieldset>
+<legend>Datos Personales</legend>
+<label for="provincias">Provincias</label> <br/>
+<select id="provincias" name="provincias">
+<option value="" selected="selected">-
+selecciona -</option>
+<option value="asturias">Asturias</option>
+<option value="galicia">Galicia</option>
+<option value="valencia">Valencia</option>
+<option value="otro">Otro</option>
+</select>
+<br>
+<label>Fecha de nacimiento:</label><br>
+<input type="text" name="dia" id="dni" size="2" maxlength="2" required>
+<select id="mes" name="mes">>
+<option value="enero">Enero</option>
+<option value="febrero">Febrero</option>
+<option value="marzo">Marzo</option>
+<option value="abril">Abril</option>
+<option value="mayo">Mayo</option>
+<option value="junio">Junio</option>
+<option value="agosto">Agosto</option>
+<option value="septiembre">Septiembre</option>
+<option value="octubre">Octubre</option>
+<option value="noviembre">Noviembre</option>
+<option value="diciembre">Diciembre</option>
+</select>
+<input type="text" name="año" id="dni" size="4" maxlength="4" required>
+<br>
+<label>Temas de Interes:</label><br>
+ <select name="" id="" multiple>
+    <option value="">Administracion de bases de datos</option>
+    <option value="">Analisis y programacion</option>
+    <option value="">Arquitectura</option>
+    <option value="">Calidad</option>
+    <option value="">ERP, CRM, Bussines Intelligence</option>
+    <option value="">Otro</option>
+  </select>
+</fieldset>
+</form>
+<h2>Formulario 3</h2>
+<form action="insertar_producto.php" method="post">
+<fieldset>
+<legend>Datos Basicos</legend>
+<label for="nombre">Nombre del producto</label> <br/>
+<input type="text" id="nombre" name="nombre" value="" /><br>
+<label for="descripcion">Descripción del producto</label> <br/>
+<textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+<br>
+<label for="nombre">Foto </label><br>
+<input type="text" name="foto" required>
+<input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+<br>
+<label for="">
+<input type="checkbox" name="intereses" value="salud"> Añadir contador de visitas
+</label>
+<br>
+</fieldset>
+</form>
+<fieldset>
+<legend>Datos Economicos</legend>
+<label>Precios: 
+<input type="number" name="precio" value="precio" size="4">
+€</label>
+<label>Impuestos</label>
+<select id="provincias" name="provincias">
+<option value="" selected="selected">
+4%</option>
+<option value="">7%</option>
+<option value="">17%</option>
+<option value="">25%</option>
+<br>
+</select>
+   <p>Promocion</p>
+    <input type="radio" name="ninguno" id="ninguno" value="ninguno" required>
+    <label for="radio-js">Ninguno</label><br>
+    <input type="radio" name="transporte-gratuito" id="transporte-gratuito" >
+    <label for="transporte-gratuito">Transporte gratuito</label><br>
+    <input type="radio" name="descuento" id="descuento">
+    <label for="descuento">Descuento 5%</label>
+</fieldset>
+
+</body>
+</html>

@@ -8,8 +8,8 @@ public abstract class PiedraPapelTijeraFactory {
 	public static final int PIEDRA = 1;
 	public static final int PAPEL = 2;
 	public static final int TIJERA = 3;
-	public static final int LAGARTIJA = 3;
-	public static final int SPOCK = 3;
+	public static final int LAGARTIJA = 4;
+	public static final int SPOCK = 5;
 	//atributos
 	protected String 								descripcionResultado;
 	private static List <PiedraPapelTijeraFactory> 	elementos;

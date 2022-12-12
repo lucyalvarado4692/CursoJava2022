@@ -26,9 +26,19 @@ public class Tijera extends PiedraPapelTijeraFactory {
 			break;
 		case PAPEL:
 			result = 1;
-			descripcionResultado = nombre + "le gana a  " + pPiedraPapelTijeraFactory.getNombre();
+			descripcionResultado = nombre + " corta a  " + pPiedraPapelTijeraFactory.getNombre();
+			break;
+		case SPOCK:
+			result = -1;
+			descripcionResultado = pPiedraPapelTijeraFactory.getNombre() + " rompe a " + nombre ;
+			break;
+		case LAGARTO:
+			result = 1;
+			descripcionResultado = nombre + " decapita a  " + pPiedraPapelTijeraFactory.getNombre();
 			break;
 		default:
+			result = 0;
+			descripcionResultado = nombre + " empata con " + pPiedraPapelTijeraFactory.getNombre();
 			break;
 		}
 		return result;

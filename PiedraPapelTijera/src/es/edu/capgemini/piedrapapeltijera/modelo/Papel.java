@@ -23,11 +23,19 @@ public class Papel extends PiedraPapelTijeraFactory {
 		switch(numeroRecibido) {
 		case TIJERA:
 			result = -1;
-			descripcionResultado = nombre + " pierde con " + pPiedraPapelTijeraFactory.getNombre();
+			descripcionResultado = pPiedraPapelTijeraFactory.getNombre() + " corta a " + nombre ;
 			break;
 		case PIEDRA:
 			result = 1;
-			descripcionResultado = nombre + " le gana a " + pPiedraPapelTijeraFactory.getNombre();
+			descripcionResultado = nombre + " tapa a " + pPiedraPapelTijeraFactory.getNombre();
+			break;
+		case LAGARTO:
+			result = -1;
+			descripcionResultado = pPiedraPapelTijeraFactory.getNombre() + " devora a  " + nombre ;
+			break;
+		case SPOCK:
+			result = 1;
+			descripcionResultado = nombre + " desautoriza a  " + pPiedraPapelTijeraFactory.getNombre();
 			break;
 		default:
 			result = 0;

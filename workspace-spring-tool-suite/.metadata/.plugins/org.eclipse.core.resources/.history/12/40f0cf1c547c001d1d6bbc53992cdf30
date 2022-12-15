@@ -1,0 +1,19 @@
+package com.baeldung.boot.jsp.repository.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class BookData {
+    public BookData(String string, String string2, String string3) {
+		// TODO Auto-generated constructor stub
+	}
+	private String isbn;
+    private String name;
+    private String author;
+}

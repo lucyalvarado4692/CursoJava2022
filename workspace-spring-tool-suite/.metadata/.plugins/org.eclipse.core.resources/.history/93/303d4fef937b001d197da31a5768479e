@@ -1,0 +1,21 @@
+package com.example.repo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.model.Usuario;
+
+@SpringBootTest
+class IUsuarioRepoTest {
+	
+	@Autowired
+	private IUsuarioRepo usuRepo;
+	
+	@Test
+	void testAgregar() {
+		Usuario usu = new Usuario(0, "123456", "LucyAlvarado");
+		Usuario usuRetorno = usuRepo.save(usu);
+		assertEquals("123456", usuRepo.getClave())
+	}
+	
+
+}

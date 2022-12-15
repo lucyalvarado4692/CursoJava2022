@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\lucyalva\Documents\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2613607451.index
+\HolaSpringFrameWork\src\main\java
+C:\Users\lucyalva\Documents\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1059917572.index
+\spring-boot-jsp\src\main\java
+C:\Users\lucyalva\OneDrive - Capgemini\Documents\Curso Java\CursoJava2022\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1059917572.index
+\spring-boot-jsp\src\main\java
+C:\Users\lucyalva\Documents\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1422026278.index
+\HolaSpringFrameWork\src\main\java

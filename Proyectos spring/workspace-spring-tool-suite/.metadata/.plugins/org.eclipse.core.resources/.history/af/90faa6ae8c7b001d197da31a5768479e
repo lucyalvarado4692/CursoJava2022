@@ -1,0 +1,8 @@
+package com.example.model;
+
+public class Usuario {
+
+	private int codigo;
+	private String clave;
+	private String nombre;
+}

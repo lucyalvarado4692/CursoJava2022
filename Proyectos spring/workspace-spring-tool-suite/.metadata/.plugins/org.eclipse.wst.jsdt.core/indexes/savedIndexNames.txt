@@ -1,0 +1,5 @@
+INDEX VERSION 1.4+C:\Users\lucyalva\OneDrive - Capgemini\Documents\Curso Java\CursoJava2022\Proyectos spring\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1827901563.index
+2080582546.index
+3559706984.index
+2152722401.index

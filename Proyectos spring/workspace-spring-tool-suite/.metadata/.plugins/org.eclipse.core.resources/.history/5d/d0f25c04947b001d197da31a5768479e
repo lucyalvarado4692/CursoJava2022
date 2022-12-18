@@ -1,0 +1,38 @@
+package com.example.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.model.Usuario;
+import com.example.repo.IUsuarioRepo;
+
+class IUsuarioRepoTest {
+	
+	@Autowired
+	private IUsuarioRepo usuRepo;
+	Usuario usu;
+
+	@BeforeEach
+	void setUp() throws Exception {
+		usu = new Usuario(0, "123456", "elena");
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		usu = null;
+	}
+	
+	
+	@Test
+	void testAgregar() {
+		Usuario usu = new Usuario(0, "123456", "LucyAlvarado");
+		Usuario usuRetorno = usuRepo.save(usu);
+		assertEquals("123456", usu.getClave());
+	}
+	
+
+}

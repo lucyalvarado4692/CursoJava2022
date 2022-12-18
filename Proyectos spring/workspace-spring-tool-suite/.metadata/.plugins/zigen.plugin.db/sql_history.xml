@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.5" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="zigen.plugin.db.core.SQLHistory">
+    <void property="config">
+     <object class="zigen.plugin.db.core.DBConfig" id="DBConfig0">
+      <void property="charset">
+       <string></string>
+      </void>
+      <void property="classPaths">
+       <array class="java.lang.String" length="1">
+        <void index="0">
+         <string>C:\Users\lucyalva\Documents\workspace-spring-tool-suite\DemoWeb\mysql-connector-java-8.0.29 (1).jar</string>
+        </void>
+       </array>
+      </void>
+      <void property="convertUnicode">
+       <boolean>true</boolean>
+      </void>
+      <void property="databaseProductVersion">
+       <string>8.0.31</string>
+      </void>
+      <void property="dbName">
+       <string>capgemini_arg</string>
+      </void>
+      <void property="dbType">
+       <int>2</int>
+      </void>
+      <void property="displayedSchemas">
+       <array class="zigen.plugin.db.core.SchemaInfo" length="8">
+        <void index="0">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>mysql</string>
+          </void>
+         </object>
+        </void>
+        <void index="1">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>information_schema</string>
+          </void>
+         </object>
+        </void>
+        <void index="2">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>performance_schema</string>
+          </void>
+         </object>
+        </void>
+        <void index="3">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>sys</string>
+          </void>
+         </object>
+        </void>
+        <void index="4">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>sakila</string>
+          </void>
+         </object>
+        </void>
+        <void index="5">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>world</string>
+          </void>
+         </object>
+        </void>
+        <void index="6">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>capgemini</string>
+          </void>
+         </object>
+        </void>
+        <void index="7">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig0"/>
+          </void>
+          <void property="name">
+           <string>capgemini_arg</string>
+          </void>
+         </object>
+        </void>
+       </array>
+      </void>
+      <void property="driverName">
+       <string>com.mysql.cj.jdbc.NonRegisteringDriver</string>
+      </void>
+      <void property="driverVersion">
+       <string>mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)</string>
+      </void>
+      <void property="filterPattern">
+       <string></string>
+      </void>
+      <void property="noLockMode">
+       <boolean>true</boolean>
+      </void>
+      <void property="password">
+       <string>admin</string>
+      </void>
+      <void property="schema">
+       <string>capgemini_arg</string>
+      </void>
+      <void property="url">
+       <string>jdbc:mysql://localhost:3306/capgemini_arg</string>
+      </void>
+      <void property="userId">
+       <string>root</string>
+      </void>
+     </object>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1670944878614</long>
+     </object>
+    </void>
+    <void property="fileMode">
+     <boolean>true</boolean>
+    </void>
+    <void property="sql">
+     <string>Select * from employees</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="zigen.plugin.db.core.SQLHistory">
+    <void property="config">
+     <object class="zigen.plugin.db.core.DBConfig" id="DBConfig1">
+      <void property="charset">
+       <string></string>
+      </void>
+      <void property="classPaths">
+       <array class="java.lang.String" length="1">
+        <void index="0">
+         <string>C:\Users\lucyalva\Documents\workspace-spring-tool-suite\DemoWeb\mysql-connector-java-8.0.29 (1).jar</string>
+        </void>
+       </array>
+      </void>
+      <void property="convertUnicode">
+       <boolean>true</boolean>
+      </void>
+      <void property="databaseProductVersion">
+       <string>8.0.31</string>
+      </void>
+      <void property="dbName">
+       <string>capgemini_arg</string>
+      </void>
+      <void property="dbType">
+       <int>2</int>
+      </void>
+      <void property="displayedSchemas">
+       <array class="zigen.plugin.db.core.SchemaInfo" length="8">
+        <void index="0">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>mysql</string>
+          </void>
+         </object>
+        </void>
+        <void index="1">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>information_schema</string>
+          </void>
+         </object>
+        </void>
+        <void index="2">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>performance_schema</string>
+          </void>
+         </object>
+        </void>
+        <void index="3">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>sys</string>
+          </void>
+         </object>
+        </void>
+        <void index="4">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>sakila</string>
+          </void>
+         </object>
+        </void>
+        <void index="5">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>world</string>
+          </void>
+         </object>
+        </void>
+        <void index="6">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>capgemini</string>
+          </void>
+         </object>
+        </void>
+        <void index="7">
+         <object class="zigen.plugin.db.core.SchemaInfo">
+          <void property="checked">
+           <boolean>true</boolean>
+          </void>
+          <void property="config">
+           <object idref="DBConfig1"/>
+          </void>
+          <void property="name">
+           <string>capgemini_arg</string>
+          </void>
+         </object>
+        </void>
+       </array>
+      </void>
+      <void property="driverName">
+       <string>com.mysql.cj.jdbc.NonRegisteringDriver</string>
+      </void>
+      <void property="driverVersion">
+       <string>mysql-connector-java-8.0.29 (Revision: dd61577595edad45c398af508cf91ad26fc4144f)</string>
+      </void>
+      <void property="filterPattern">
+       <string></string>
+      </void>
+      <void property="noLockMode">
+       <boolean>true</boolean>
+      </void>
+      <void property="password">
+       <string>admin</string>
+      </void>
+      <void property="schema">
+       <string>capgemini_arg</string>
+      </void>
+      <void property="url">
+       <string>jdbc:mysql://localhost:3306/capgemini_arg</string>
+      </void>
+      <void property="userId">
+       <string>root</string>
+      </void>
+     </object>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1670946392613</long>
+     </object>
+    </void>
+    <void property="fileMode">
+     <boolean>true</boolean>
+    </void>
+    <void property="sql">
+     <string>Select * from persona p</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="zigen.plugin.db.core.SQLHistory">
+    <void property="config">
+     <object idref="DBConfig1"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1670946555016</long>
+     </object>
+    </void>
+    <void property="fileMode">
+     <boolean>true</boolean>
+    </void>
+    <void property="sql">
+     <string>Select * from persona p&#13;
+</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

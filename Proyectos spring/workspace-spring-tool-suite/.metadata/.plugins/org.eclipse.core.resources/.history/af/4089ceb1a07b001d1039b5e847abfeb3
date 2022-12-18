@@ -1,0 +1,26 @@
+package com.example.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.example.model.Usuario;
+import com.example.repo.IUsuarioRepo;
+
+@Service
+public class UserService implements UserDetails{
+	
+	@Autowired
+	private IUsuarioRepo repo;
+	
+	@Autowired
+	private BCryptPasswordEncoder encoder;
+
+	
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException{
+		Usuario us = repo.findByNombre()
+	}
+}

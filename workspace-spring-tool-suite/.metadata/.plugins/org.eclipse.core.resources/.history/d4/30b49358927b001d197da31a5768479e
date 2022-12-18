@@ -1,9 +1,0 @@
-package com.example.repo;
-
-class IUsuarioRepoTest {
-	
-	private IUsuarioRepo usuRepo;
-	
-	
-
-}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script
+      type="text/javascript"
+      src="/WorkSpaceJavaScript/js/ejercicio9.js"
+    ></script>
+<title>Ejercitación 9</title>
+<script src=""></script>
+
+</head>
+<body>
+	<h1>Rellena tu CV</h1>
+    
+	<fieldset>
+		<legend>Datos Personales</legend><br><br>
+		<form method = "post" enctype = "multipart/form-data" onsubmit="return validacion()">
+		<label for = "provincias">Provincia</label><br>
+		<select id="provincias" name="provincias">
+			<option value = "selecciona">-selecciona-</option>
+			<option value = "1">Asturias</option>
+			<option value = "2">Galicia</option> 
+            <option value = "3">Madrid</option>
+		</select><br><br>
+		
+		Fecha de nacimiento<br>
+		<input id = "dia" type="number" size = "2"> de <select>
+			<option value = "" selected = "selected">Enero</option>
+			<option value = "">Febrero</option>
+			<option value = "">Marzo</option> 
+			<option value = "">Abril</option>
+			<option value = "">Mayo</option>
+			<option value = "">Abril</option>
+			<option value = "">Junio</option> 
+			<option value = "">Julio</option>
+			<option value = "">Agosto</option>
+			<option value = "">Septiembre</option>
+			<option value = "">Octubre</option> 
+			<option value = "">Noviembre</option>
+			<option value = "">Diciembre</option>
+		</select> de <input id = "anio" type="number" size = "4"><br><br>
+		
+		
+		Temas de interés<br>
+		<select size = "5">
+			<option value = "" selected = "selected">Administración de Bases de datos</option>
+			<option value = "">Análisis y programación</option>
+			<option value = "">Arquitectura</option> 
+			<option value = "">Calidad</option>
+			<option value = "">ERP, CRM, Business Intelligence</option>
+			<option value = "">Administración de Bases de datos</option>
+			<option value = "">Análisis y programación</option> 
+			<option value = "">Arquitectura</option>
+			<option value = "">Calidad</option>
+			<option value = "">ERP, CRM, Business Intelligence</option>
+			<option value = "">Arquitectura</option> 
+			<option value = "">Calidad</option>
+			<option value = "">Análisis y programación</option>
+		</select>
+		<br>
+		<br>
+	</fieldset>
+
+
+	<fieldset>
+		<legend>Datos básicos</legend><br>		
+		Nombre
+		<br>
+		<input id = "nombre" type="text" size = "10"><br>
+		
+		<label>Descrición</label><br> 
+		<textarea rows="" cols=""></textarea><br>
+		
+		Fotos
+		<input>
+		<input name = "adjunto" type = "file" />
+		<br><br>
+		
+		<input name = "suscripción" type = "checkbox" value = ""/>
+		Añadir contador de visitas <br>
+		
+	</fieldset>
+	
+	<fieldset>
+		<legend>Datos económicos</legend><br>		
+		Precio
+		<input id="precio" type= "number" size = "6"/> $
+
+		Impuestos
+		<select id = "tasas" name = "tasas">
+			<option value = "4" >4%</option>
+			<option value = "7">7%</option>
+			<option value = "16">16%</option> 
+			<option value = "21">21%</option>
+			</select>
+		
+		Promoción<br>
+		
+		<input name = "none" type = "radio" value = "ninguno" />Ninguno<br>
+		<input name = "free" type = "radio" value = "gratis" />Transporte gratuito<br>
+		<input name = "descuento" id="precio" type = "radio" value = "descuento" />Descuento 5%<br>
+		
+	</fieldset>
+
+		<input type = "submit" name = "enviar" value = "Enviar datos del formulario" />
+	</form>
+
+    
+
+</body>
+</html>
+
+

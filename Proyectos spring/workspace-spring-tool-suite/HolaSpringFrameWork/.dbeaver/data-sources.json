@@ -1,0 +1,38 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18506274bf7-586df1f6476c3a": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "capgemini_arg",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "capgemini_arg",
+				"url": "jdbc:mysql://localhost:3306/capgemini_arg",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

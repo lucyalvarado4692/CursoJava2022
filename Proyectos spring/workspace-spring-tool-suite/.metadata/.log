@@ -10066,3 +10066,370 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-12-21 21:46:53.962 -----------------------------------------------
+eclipse.buildId=4.17.0.202212060857
+java.version=17.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2022-12-21 21:46:55.595
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2022-12-21 21:47:05.704
+!MESSAGE Logback config file: C:\Users\lucyalva\OneDrive - Capgemini\Documents\Curso Java\CursoJava2022\Proyectos spring\workspace-spring-tool-suite\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.0.20221015-0744.xml
+
+!ENTRY org.eclipse.jface 2 0 2022-12-21 21:47:08.499
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-21 21:47:08.499
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-21 21:47:08.499
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-21 21:47:12.118
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lucyalva'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2022-12-21 21:52:23.058
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.107
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.0\spring-boot-starter-web-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.109
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.0\spring-boot-starter-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.111
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot\3.0.0\spring-boot-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.113
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.0\spring-boot-autoconfigure-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.116
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.0\spring-boot-starter-logging-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.118
+!MESSAGE C:\Users\lucyalva\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.120
+!MESSAGE C:\Users\lucyalva\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.123
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.125
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.127
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\slf4j\jul-to-slf4j\2.0.4\jul-to-slf4j-2.0.4.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.130
+!MESSAGE C:\Users\lucyalva\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.132
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.135
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.0\spring-boot-starter-json-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.143
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.146
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.148
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.151
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.1\jackson-datatype-jdk8-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.156
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.1\jackson-datatype-jsr310-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.159
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.1\jackson-module-parameter-names-2.14.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.172
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.0\spring-boot-starter-tomcat-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.185
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.1\tomcat-embed-core-10.1.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.191
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.1\tomcat-embed-el-10.1.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.195
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.1\tomcat-embed-websocket-10.1.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.198
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-web\6.0.2\spring-web-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.201
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-beans\6.0.2\spring-beans-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.205
+!MESSAGE C:\Users\lucyalva\.m2\repository\io\micrometer\micrometer-observation\1.10.2\micrometer-observation-1.10.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.215
+!MESSAGE C:\Users\lucyalva\.m2\repository\io\micrometer\micrometer-commons\1.10.2\micrometer-commons-1.10.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.217
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-webmvc\6.0.2\spring-webmvc-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.219
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-aop\6.0.2\spring-aop-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.221
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-context\6.0.2\spring-context-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.222
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-expression\6.0.2\spring-expression-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.236
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.0\spring-boot-starter-test-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.238
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-test\3.0.0\spring-boot-test-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.240
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.0\spring-boot-test-autoconfigure-3.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.243
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.245
+!MESSAGE C:\Users\lucyalva\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.247
+!MESSAGE C:\Users\lucyalva\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.250
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.253
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\slf4j\slf4j-api\2.0.4\slf4j-api-2.0.4.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.255
+!MESSAGE C:\Users\lucyalva\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.257
+!MESSAGE C:\Users\lucyalva\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.259
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.261
+!MESSAGE C:\Users\lucyalva\.m2\repository\net\bytebuddy\byte-buddy\1.12.19\byte-buddy-1.12.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.264
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.332
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.346
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.350
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.356
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.362
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.367
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.370
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.373
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.378
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.380
+!MESSAGE C:\Users\lucyalva\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.19\byte-buddy-agent-1.12.19.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.388
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.393
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.396
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.401
+!MESSAGE C:\Users\lucyalva\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.404
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-core\6.0.2\spring-core-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.412
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-jcl\6.0.2\spring-jcl-6.0.2.jar is not on its project's build path
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-12-21 21:53:11.423
+!MESSAGE executing callback sts4.classpath.wjHhqKOi FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-12-21 21:53:11.425
+!MESSAGE No language server has registered to handle command 'sts4.classpath.wjHhqKOi'
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.wjHhqKOi'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.428
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\springframework\spring-test\6.0.2\spring-test-6.0.2.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2022-12-21 21:53:11.430
+!MESSAGE C:\Users\lucyalva\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-12-21 21:53:21.050
+!MESSAGE Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.baeldung:spring-aop:0.0.1-SNAPSHOT: Could not find artifact com.baeldung:parent-boot-2:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for com.baeldung:spring-aop:0.0.1-SNAPSHOT: Could not find artifact com.baeldung:parent-boot-2:pom:0.0.1-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 10, column 13
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:129)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$20(ProjectRegistryManager.java:883)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:879)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:707)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1027)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2022-12-21 21:53:22.071
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-21 21:53:22.071
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 21:54:52.625
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:228)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineInformation(BasicStructuredDocument.java:1461)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:172)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.getExistingMarkerFor(LSPDiagnosticsToMarkers.java:206)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarkers(LSPDiagnosticsToMarkers.java:146)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:90)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:1)
+	at org.eclipse.lsp4e.LanguageClientImpl.publishDiagnostics(LanguageClientImpl.java:92)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:287)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-12-21 21:54:52.628
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.getLineInformation(TreeLineTracker.java:1163)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineInformation(AbstractLineTracker.java:228)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.getLineInformation(BasicStructuredDocument.java:1461)
+	at org.eclipse.lsp4e.LSPEclipseUtils.toOffset(LSPEclipseUtils.java:172)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.computeMarkerAttributes(LSPDiagnosticsToMarkers.java:231)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.lambda$10(LSPDiagnosticsToMarkers.java:157)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarkers(LSPDiagnosticsToMarkers.java:186)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:90)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.accept(LSPDiagnosticsToMarkers.java:1)
+	at org.eclipse.lsp4e.LanguageClientImpl.publishDiagnostics(LanguageClientImpl.java:92)
+	at jdk.internal.reflect.GeneratedMethodAccessor67.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:287)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

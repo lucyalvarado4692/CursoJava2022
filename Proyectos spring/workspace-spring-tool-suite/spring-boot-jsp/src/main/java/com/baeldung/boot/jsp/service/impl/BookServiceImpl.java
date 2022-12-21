@@ -39,11 +39,14 @@ public class BookServiceImpl implements BookService {
         final BookData savedBook = bookRepository.add(convertBook(book));
         return convertBookData(savedBook);
     }
-
+    
+    
+    //Convertir el modelo de base de datos al modelo simple
     private static Book convertBookData(BookData bookData) {
         return new Book(bookData.getIsbn(), bookData.getName(), bookData.getAuthor());
     }
 
+    //Convertir el modelo simple al de la base de datos
     private static BookData convertBook(Book book) {
         return new BookData(book.getIsbn(), book.getName(), book.getAuthor());
     }

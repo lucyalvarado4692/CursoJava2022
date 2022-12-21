@@ -15,11 +15,6 @@ public class DuplicateBookException extends RuntimeException {
 
 
 
-	/**
-	 * @return the book
-	 */
-	public Book getBook() {
-		return book;
-	}
+	
 
 }
